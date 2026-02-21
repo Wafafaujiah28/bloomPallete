@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pink-soft: #FDF2F8;
+  --color-pink-deep: #DB2777;
+  --color-yellow-soft: #FEF9C3;
+  --color-yellow-gold: #EAB308;
+}
+
+/* Biar background default-nya langsung pink muda */
+body {
+  background-color: var(--color-pink-soft);
+  color: #1a1a1a;
+}
